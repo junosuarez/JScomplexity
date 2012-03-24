@@ -1,0 +1,99 @@
+/* colors:
+
+main
+#FF9200
+
+shadow
+#A65F00
+
+highlight
+#FFAD40
+
+alt highlight
+#BF8230
+
+bright
+#FFC373
+
+*/
+
+body{
+	background-color: #444;
+}
+h1{
+	font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	text-align: center;
+	font-style: italic;
+	color: #FF9200;
+	margin-bottom: 30px;
+}
+#content{
+	width: 960px;
+	margin: 10px auto;
+}
+#tweets{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+	#tweets li{
+		margin: 0 0 70px;
+		clear: both;
+
+	}
+
+	#tweets .body{
+		background-color: #FFC373;
+		border-radius: 10px;
+		-webkit-box-shadow: 0 0 10px #000;
+		padding: 10px;
+		font-size: 18px;
+	}
+
+	#tweets li.presenter .body{
+		background-color: #FFAD40;
+	}
+
+	#tweets footer{
+		background-color: #666;
+		height: 48px;
+		line-height: 24px;
+		font-family: serif;
+		font-size: 16px;
+		width: 300px;
+		float: right;
+		margin-right: 120px;
+		text-align: right;
+		color: #FF9200;
+	}
+
+	#tweets .presenter footer{
+		float: left;
+		margin-left: 120px;
+		text-align: left;
+	}
+
+	#tweets footer .time{
+		font-style: italic;
+	}
+
+		#tweets footer img{
+			float: right;
+			border: 0;
+			border-left: 20px solid transparent;
+		}
+
+		#tweets .presenter footer img{
+			float: left;
+			border: 0;
+			border-right: 20px solid transparent;
+		}
+
+	#tweets .arrow{
+		border-color: transparent #444 #444 #FFC373; border-style: solid; border-width: 0 0 48px 48px; height: 0px; width: 0px;
+		float: right;
+	}
+	#tweets .presenter .arrow{
+		border-color: transparent #FFAD40 #444 #444; border-style: solid; border-width: 0 48px 48px 0; height: 0px; width: 0px;
+		float: left;
+	}
