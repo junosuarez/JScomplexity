@@ -2,6 +2,10 @@
 =================
 twitter: [@leJDen][http://twitter.com/leJDen]
 
+## thanks for checking out this repository
+
+I'm still adding things, including the links that I mentioned and the complete demo. Hang tight :)
+
 ## Tools used:
  - jslint
  - jasmine
