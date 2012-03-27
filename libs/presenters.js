@@ -16,7 +16,7 @@ define(['jquery'], function ($) {
 		"@jasonleedean",
 		"@rj_dudley",
 		"@jarodf",
-		"@sqlCindy",
+		"@sqlcindy",
 		"@adron",
 		"@andrewhanson",
 		"@andyharl",

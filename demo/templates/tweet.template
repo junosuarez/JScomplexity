@@ -1,0 +1,9 @@
+<li class="presenter">
+	<div class="body"><%- text %></div>
+	<footer>
+		<div class="arrow"></div>
+		<img src="<%= profile_image_url %>" height="48" width="48" alt="" />
+		<div class="author"><%- from_user %></div>
+		<div class="time" data-time="<%= created_at %>"><%= created_at %></div>
+	</footer>
+</li>
