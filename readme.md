@@ -24,7 +24,7 @@ Examples of tests using jasmine.
 
 ## Slides
 Slides are available at http://www.slideshare.net/jdenizac/hacking-javascript-complexity-boise-code-camp-12
-I'll try to post a recording later.
+Video available at http://www.youtube.com/watch?v=Ea0FKq0a2-g&feature=youtu.be
 
 ## License
 Please use any of the code or files in this example for any purpose with no attribution necessary. The disclaimer of liability or warranty from the standard MIT license applies. Enjoy!
