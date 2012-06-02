@@ -1,0 +1,30 @@
+body{
+	font-family: segoe ui;
+}
+#configure{
+	float:left;
+}
+#categories > form > li{
+	float: left;
+}
+#categories:after{
+	content:"";
+	clear: both;
+}
+#facets li{
+	display: inline-block;
+}
+
+#order{
+	float:right;
+	width: 400px;
+}
+	
+	#order input{
+		display:block;
+		font-size: 16px;
+	}
+
+	#order input[type=button]{
+		font-size: 20px;
+	}
