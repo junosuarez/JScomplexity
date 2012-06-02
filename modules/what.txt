@@ -1,0 +1,23 @@
+an application
+
+in main.js, just load App dependency, call App.init after domReady
+
+wire up ui events
+
+
+
+intro - quickly go over js the good parts, show picture of it alongside js definitive guide
+
+modules:
+what, why
+syntax
+simple example
+more complex example - multi-level dependencies
+now what:
+-intellisense in Visual Studio
+-visualize dependency tree
+
+test it: mocha tests for one of the modules
+
+============================
+

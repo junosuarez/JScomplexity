@@ -1,48 +1,32 @@
 /*global define: true*/
-define(['jquery'], function ($) {
+define(['underscore'], function (_) {
 	var presenters = [
 			"@lejden",
-			"@brettadler",
+			"@avkashchauhan",
 			"@richardcirerol",
 			"@craigber",
-			"@cwbrandsma",
-			"@sftwear",
+			"@blowdart",
+			"@nickfloyd",
 			"@mdclement",
-			"@rdavidcohen",
-			"@bossmojoman",
-			"@jconti",
-			"@ianfdavis",
-			"@jasonleedean",
-			"@jasonleedean",
-			"@rj_dudley",
-			"@jarodf",
-			"@sqlcindy",
+			"@amottaz",
+			"@u2422",
+			"@tedneward",
+			"@cesar_pinera",
+			"@manoagarwal",
 			"@adron",
-			"@andrewhanson",
-			"@andyharl",
-			"@jimbohoffman",
-			"@rhundhausen",
-			"@inguanzo",
-			"@mjconnection",
-			"@alark",
-			"@expandecommerce",
-			"@brianlagunas",
-			"@djdarkbeat",
-			"@radjqueryninja",
-			"@jacobsimeon",
-			"@jen20",
-			"@jpease",
-			"@devinrader",
-			"@kdawg02",
-			"@jrcs3",
-			"@seantimm",
-			"@danielwatrous",
+			"@edinor",
+			"@pwojnaro",
+			"@brucedkyle",
+			"@adron",
+			"@waltritscher",
 			"@mckhendry"
 		],
 		isPresenter = function (twitterName) {
 			twitterName = twitterName.substring(0, 1) === '@' ? twitterName : '@' + twitterName;
-			return $.inArray(twitterName.toLowerCase(), presenters) > -1;
+			return _.contains(presenters, twitterName.toLowerCase());
 		};
+
+		console.log("isPresenter");
 
 	return isPresenter;
 });

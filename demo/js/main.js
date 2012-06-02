@@ -8,20 +8,18 @@ require.config({
     }
 });
 
-require(['jquery', 'twitterSearcher', 'tweetTemplate','liveDate'], function ($, searcher, template) {
+require(['jquery', 'twitterSearcher', 'tweetTemplate','liveDate'], function ($, Searcher, template) {
 		// cache jQuery selectors
 	var el = {
 			tweets: $('#tweets')
 		},
-		// set up custom events using jQuery's event engine
-		events = {
-			newTweet: $.Event('newTweet')
-		},
-		// create new search using the searcher
-		search = searcher('#bcc12', events.newTweet);
+		// create new Searcher
+		// This will poll the Twitter API for a given search term on a regular interval
+		// and emit a 'newTweet' jQuery event when a new tweet occurs
+		search = new Searcher('#pdxcodecamp');
 
 	// register event listener
-	$(document).on(events.newTweet.type, function (data) {
+	$(document).on('newTweet', function (e, data) {
 		var tweet = template.apply(data.latest);
 		el.tweets.prepend(tweet).hide().fadeIn();
 	});

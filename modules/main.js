@@ -1,6 +1,11 @@
-/*global require:true */
+/*global require */
+require.config({
+    paths: {
+        'jquery': 'lib/jquery-1.7.2.min'
+	}
+});
+require(['jquery', 'sugarwater'], function ($, ohhYeahh) {
 
-require(['jquery', 'sugarWater', 'lib/domReady!'], function ($, ohhYeahh) {
-	$('#refreshing')
-		.on('click', ohhYeahh);
+	$('button').on('click', ohhYeahh);
+
 });

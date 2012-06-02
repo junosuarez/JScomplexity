@@ -10,7 +10,7 @@ define([
 			apply = function (tweet) {
 				tweet.presenter = isPresenter(tweet.from_user);
 				tweet.prettyDate = prettydate(tweet.created_at);
-				return compiled(tweet);
+				return compiled(tweet);  
 			};
 
 		return { apply: apply };
