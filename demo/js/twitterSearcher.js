@@ -15,6 +15,9 @@ define('twitterApi', [], function () {
 });
 */
 define(['jquery', 'twitterApi'], function ($, twitterApi) {
+
+	"use strict";
+
 	var opts = {
 			maxTweets: 50, // max tweets to request at a time
 			rate: 30000	   // number of miliseconds between API calls.
@@ -59,8 +62,7 @@ define(['jquery', 'twitterApi'], function ($, twitterApi) {
 			};
 		},
 		/* Creates a Searcher stream, which emits 'newTweet' events
-		 * @param {String} search The search string
-		 * @param {Object} newTweetEvent A jQuery event which will be fired for each new tweet.
+		 * @param {string} search The search string
 		 * @returns A searcher object. You must call searcher.start() to begin receiving events.
 		 */
 		Searcher = function (search) {

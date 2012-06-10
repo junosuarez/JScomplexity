@@ -1,5 +1,8 @@
-/*global define: true*/
+/*global define */
+/*jslint nomen:true */
 define(['underscore'], function (_) {
+	"use strict";
+
 	var presenters = [
 			"@lejden",
 			"@avkashchauhan",
@@ -25,8 +28,6 @@ define(['underscore'], function (_) {
 			twitterName = twitterName.substring(0, 1) === '@' ? twitterName : '@' + twitterName;
 			return _.contains(presenters, twitterName.toLowerCase());
 		};
-
-		console.log("isPresenter");
 
 	return isPresenter;
 });

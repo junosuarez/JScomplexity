@@ -1,11 +1,11 @@
-/*global require */
+/*global  */
 require.config({
     paths: {
         "jquery": "lib/jquery-1.7.2.min",
         "lodash": "lib/lodash.min"
 	}
   });
-require(['menu','calcTax','ui'], function (menu, calcTax, ui) {
+require(['SomeCooltingsThatDoesSoemthingcalcTax','ui'], function (calcTax, ui) {
 
 	calcTax.configure({
 		rates:{
@@ -16,7 +16,14 @@ require(['menu','calcTax','ui'], function (menu, calcTax, ui) {
 		}
 	});
 
-	ui.init();
+	ui.init(function () {
+
+
+		require(['anothermodule', 'someRarelyusedStuff', 'boringLegalDislaimer'])
+
+
+
+	});
 
 
 

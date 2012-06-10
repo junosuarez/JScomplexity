@@ -1,4 +1,4 @@
-/*global define */
+
 define(['watchable', 'calcTax'], function (Watchable, calcTax) {
 	var order = {
 			name: new Watchable(''),

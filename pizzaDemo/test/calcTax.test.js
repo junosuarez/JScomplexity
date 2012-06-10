@@ -35,7 +35,7 @@ describe('calcTax', function () {
 
 			var tax = calc(10, 'MyRate');
 
-			tax.should.equal(5);
+			tax.should.equal(42);
 		});
 	});
 

@@ -1,0 +1,756 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"eve",
+				"eventName"
+			],
+			[
+				"refer",
+				"refresh_url"
+			],
+			[
+				"refre",
+				"refresh_url"
+			],
+			[
+				"update",
+				"updateTweets"
+			],
+			[
+				"twitter",
+				"twitterApi"
+			],
+			[
+				"pri",
+				"priceCheck"
+			],
+			[
+				"get",
+				"getConfigGroupHtml"
+			],
+			[
+				"init",
+				"initOrder"
+			],
+			[
+				"pro",
+				"shownprop - should have own property"
+			],
+			[
+				"equ",
+				"sheq - should ==="
+			],
+			[
+				"describ",
+				"describe - bdd spec block"
+			],
+			[
+				"sh",
+				"sheq - should ==="
+			],
+			[
+				"shou",
+				"should.equal()	bdd spec"
+			],
+			[
+				"max",
+				"maxTweets"
+			],
+			[
+				"re",
+				"result2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "demo/js/main.js",
+			"settings":
+			{
+				"buffer_size": 835,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsFormat/JsFormat.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 213,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "demo/js/presenters.js",
+			"settings":
+			{
+				"buffer_size": 658,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "demo/js/twitterSearcher.js",
+			"settings":
+			{
+				"buffer_size": 2625,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/**\n * Multiplies some things\n * @param  {number} x first operand\n * @param  {number} y second operand\n * @return {number} the product of x and y\n */\nfunction foo(x, y) {\n	return foo;\n}\n\nfoo(x, y).().()",
+			"file": "/C/Users/Jaso/Desktop/test.js",
+			"file_size": 209,
+			"file_write_time": 129837749831225882,
+			"settings":
+			{
+				"buffer_size": 202,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/jslint.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"node",
+				"SublimeREPL: Node"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"codein",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insl",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: amd",
+				"Snippet: new AMD module template"
+			],
+			[
+				"dts",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"t",
+				"Trailing Spaces: Toggle Trailing Spaces"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Toggle Trailing Spaces"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"ro",
+				"Rot13 Selection"
+			],
+			[
+				"re no",
+				"SublimeREPL: Node"
+			],
+			[
+				"rm",
+				"Random Message: Insert Random Message"
+			],
+			[
+				"rand",
+				"Random Message: Insert Random Message"
+			],
+			[
+				"ran",
+				"Random Message: Insert Random Message"
+			],
+			[
+				"conso",
+				"Set Syntax: JS Console"
+			],
+			[
+				"m",
+				"Markdown Preview: current file in Sublime Text"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"inst	",
+				"Package Control: Install Package"
+			],
+			[
+				"insta ",
+				"Package Control: Install Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa	up ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"bdd",
+				"Set Syntax: JavaScript (BDD test)"
+			],
+			[
+				"sco",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"sho",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"scop",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"rot",
+				"Rot13 Selection"
+			],
+			[
+				"scope ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"jav	",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"power",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"pc dsc",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 220.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsFormat/JsFormat.sublime-settings",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/dev/JScomplexity/demo/js/presenters.js",
+		"/C/dev/jsdemo/gameoflife/gol.js",
+		"/C/Users/Jaso/Desktop/test.js",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/zenburn/zenburn - Dark.tmTheme",
+		"/C/dev/JScomplexity/demo/index.html",
+		"/C/dev/JScomplexity/demo/js/twitterSearcher.js",
+		"/C/dev/chaplin/src/chaplin/application.coffee",
+		"/C/dev/chaplin/src/chaplin.coffee",
+		"/C/dev/chaplin/build/build_config.js",
+		"/C/dev/AiasJS/Order.js",
+		"/C/dev/AiasJS/example/index.html",
+		"/C/dev/AiasJS/example/example.js",
+		"/C/dev/helen/promise.js",
+		"/C/dev/JScomplexity/shim/index.html",
+		"/C/dev/AiasJS/example/main.js",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/dev/JScomplexity/shim/main.js",
+		"/C/dev/AiasJS/example.js",
+		"/C/dev/AiasJS/Deferred.js",
+		"/C/dev/JScomplexity/moduleOrder/b.js",
+		"/C/dev/JScomplexity/moduleOrder/main.js",
+		"/C/dev/JScomplexity/pizzaDemo/main.js",
+		"/C/dev/JScomplexity/pizzaDemo/ui.js",
+		"/C/dev/JScomplexity/demo/js/tweetTemplate.js",
+		"/C/dev/JScomplexity/demo/templates/tweet.html",
+		"/C/dev/JScomplexity/moduleOrder/c.js",
+		"/C/dev/JScomplexity/demo/js/main.js",
+		"/C/dev/JScomplexity/pizzaDemo/orderViewModel.js",
+		"/C/dev/helen/helen.js",
+		"/C/dev/helen/ptest.js",
+		"/C/dev/JScomplexity/modules/sugarwater.js",
+		"/C/dev/JScomplexity/moduleOrder/a.js",
+		"/C/dev/lodash/lodash.js",
+		"/C/dev/lodash/doc/README.md",
+		"/C/dev/JScomplexity/pizzaDemo/watchable.js",
+		"/C/dev/JScomplexity/moduleOrder/trace.js",
+		"/C/dev/JScomplexity/demo/js/liveDate.js",
+		"/C/dev/JScomplexity/pizzaDemo/test/calcTax.test.js",
+		"/C/dev/JScomplexity/demo/test/presenters.test.js",
+		"/C/dev/JScomplexity/demo/node_modules/requirejs/bin/r.js",
+		"/C/dev/JScomplexity/demo/js/twitterApi.js",
+		"/C/dev/JScomplexity/pizzaDemo/calcTax.js",
+		"/C/dev/JScomplexity/demo/test/presenters.spec.js",
+		"/C/dev/JScomplexity/demo/test/demo.spec.js",
+		"/C/dev/JScomplexity/readme.md",
+		"/C/dev/JScomplexity/pizzaDemo/menu.js",
+		"/C/Users/Jaso/AppData/Roaming/npm/node_modules/jasmine-node/lib/jasmine-node/jasmine-2.0.0.rc1.js",
+		"/C/dev/JScomplexity/testing/spec/calculator.spec.js",
+		"/C/dev/JScomplexity/modules/main.js",
+		"/C/dev/JScomplexity/demo/js/lib/text.js",
+		"/C/dev/JScomplexity/pizzaDemo/style.css",
+		"/C/dev/JScomplexity/pizzaDemo/index.html",
+		"/C/dev/JScomplexity/pizzaDemo/ia.js",
+		"/C/dev/jsdemo/gameoflife/watchable.js",
+		"/C/dev/JScomplexity/moduleOrder/index.html",
+		"/C/dev/JScomplexity/modules/a.js",
+		"/C/dev/JScomplexity/pizzaDemo/b.js",
+		"/C/dev/JScomplexity/modules/index.html",
+		"/C/dev/JScomplexity/modules/trace.js",
+		"/C/dev/JScomplexity/VSmodules/js/require.intellisense.js",
+		"/C/dev/JScomplexity/lodash/main.js",
+		"/C/dev/JScomplexity/lodash/js/view.js",
+		"/C/dev/JScomplexity/lodash/template/hello.txt",
+		"/C/dev/JScomplexity/lodash/index.html",
+		"/C/dev/JScomplexity/pizzaDemo/facets.js",
+		"/C/dev/JScomplexity/lodash/template/hello.template",
+		"/C/dev/JScomplexity/pizzaDemo/collection.js",
+		"/C/dev/JScomplexity/modules/b.js",
+		"/C/dev/jsonbin/js/jsonEditor.js",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsAMD/newModule.sublime-snippet",
+		"/C/dev/jsonbin/test/jsonEditor.test.js",
+		"/C/dev/bcc12/testing/spec/calculator.spec.js",
+		"/C/dev/bcc12/demo/js/presenters.js",
+		"/C/dev/bcc12/demo/js/main.js",
+		"/C/dev/JScomplexity/libs/prettydate.js",
+		"/C/dev/bcc12/testing/calculator.js",
+		"/C/dev/bcc12/modules/sugarwater.js",
+		"/C/dev/mtest/application.json",
+		"/C/dev/mtest/index.js",
+		"/C/sfd/Elevation/elevate.cmd",
+		"/C/sfd/Elevation/elevate.vbs",
+		"/C/Users/Jaso/AppData/Local/Temp/Temp1_P80003338-ID.zip/P80003338-ID.csv",
+		"/C/dev/jsdemo/functionalfizzbuzz/test/test.js",
+		"/C/dev/mtest/server.js",
+		"/C/dev/mtest/routes.json",
+		"/C/Users/Jaso/AppData/Roaming/npm/node_modules/mojito/node_modules/yui3/lib/node-yui3.js",
+		"/C/Users/Jaso/AppData/Roaming/npm/node_modules/mojito/lib/app/addons/view-engines/mu.server.js",
+		"/C/Users/Jaso/Downloads/Game.of.Thrones.S02E02.WEBRip.XviD-3LT0N/3LT0N-NFO.nfo",
+		"/C/dev/jsonbin/js/validateJson.js",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsBDD/newbdd.sublime-snippet",
+		"/C/Users/Jaso/AppData/Roaming/npm/node_modules/requirejs/require.js",
+		"/C/dev/bcc12/demo/spec/demo.spec.js",
+		"/C/dev/jsdemo/functionalfizzbuzz/node_modules/should/Readme.md",
+		"/C/dev/jsonbin/js/sdf.test.js",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsBDD/JsBDD.tmLanguage",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/Rails/JavaScript (Rails).tmLanguage",
+		"/C/dev/jsonbin/test/validateJsonTest.js",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JavaScript/function.sublime-snippet",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsBDD/describe.sublime-snippet",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsBDD/completions.sublime-completions",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsBDD/shouldequal.sublime-snippet",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsBDD/.gitignore",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsBDD/readme.md",
+		"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsBDD/it.sublime-snippet",
+		"/C/dev/jsdemo/functionalfizzbuzz/node_modules/should/package.json",
+		"/C/dev/fb/test/test.js",
+		"/C/dev/jsdemo/README.md",
+		"/C/dev/bh/metadata/readme.md",
+		"/C/dev/bh/metadata/meetings.json",
+		"/C/dev/fb/fb.js",
+		"/C/dev/nodetest/server.js",
+		"/C/Users/Jaso/Downloads/kinectjs_vI/framework/workerSocket.js",
+		"/C/Users/Jaso/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+		"/C/dev/jstalk/demo/spec/demo.spec.js",
+		"/C/dev/jstalk/demo/index.html",
+		"/C/dev/jstalk/demo/js/main.js",
+		"/C/dev/jstalk/demo/js/twitterSearcher.js",
+		"/C/dev/jstalk/readme.md",
+		"/C/dev/jstalk/demo/js/presenters.js",
+		"/C/dev/jstalk/demo/js/liveDate.js",
+		"/C/dev/jstalk/demo/js/lib/prettydate.js",
+		"/C/dev/jstalk/demo/templates/tweet.html",
+		"/C/dev/jstalk/demo/js/lib/underscore.js",
+		"/C/dev/jstalk/demo/js/tweetTemplate.js",
+		"/C/dev/jstalk/modules/index.html",
+		"/C/dev/jstalk/modules/sugarwater.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"foreach",
+			"isbrowser",
+			"throw",
+			"'",
+			"calling",
+			"cmd",
+			"console",
+			"catch",
+			"quit",
+			"too_many",
+			"xml"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "demo/js/main.js",
+					"settings":
+					{
+						"buffer_size": 835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								830,
+								830
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 35,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 317.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/JsFormat/JsFormat.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 6,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "demo/js/presenters.js",
+					"settings":
+					{
+						"buffer_size": 658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 7,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 0,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "demo/js/twitterSearcher.js",
+					"settings":
+					{
+						"buffer_size": 2625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								389
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 18,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 303.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Jaso/Desktop/test.js",
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 10,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 0,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"se",
+				"/C/dev/JScomplexity/demo/js/twitterSearcher.js"
+			],
+			[
+				"ma",
+				"/C/dev/JScomplexity/demo/js/main.js"
+			],
+			[
+				"",
+				"/C/Users/Jaso/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
